@@ -1,0 +1,18 @@
+# Ignore dataset, MLflow runs and report artifacts
+data/
+data/**
+
+# MLflow run artifacts
+mlruns/
+mlruns/**
+
+# Generated reports and figures
+reports/
+reports/**
+
+# Notebook and python artifacts
+.ipynb_checkpoints/
+__pycache__/
+
+# macOS
+.DS_Store
